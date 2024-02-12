@@ -19,11 +19,7 @@ func main() {
 	formattedString := fmt.Sprintf("The answer is %d\n", 42)
 	fmt.Print(formattedString)
 
-	// 5. Fprintln - Format and write to a specified output stream (e.g., a file or network)
-	file, _ := // Assume a file is opened for writing
-		fmt.Fprintln(file, "Writing to a file")
-
-	// 6. Errorf - Format an error message
+	// 5. Errorf - Format an error message
 	err := fmt.Errorf("An error occurred: %s", "something went wrong")
 	fmt.Println(err)
 }
