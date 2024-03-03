@@ -11,6 +11,7 @@ import (
 
 const connectionString = "string"
 
+const databaseName = "mongodb+srv://awaismumtaz0099:25213291231919@cluster0.3so1bcq.mongodb.net/todo-golang"
 const colName = "todo-table"
 const collectionName = "todo"
 
